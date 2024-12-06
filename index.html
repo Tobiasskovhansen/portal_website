@@ -1,11 +1,78 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<title>Homepage</title>
-<link href="style-index.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="style-index.css">
 </head>
-
 <body>
+
+	
+	<a href="#">
+	<img src="img/aperture laboratories logo.png" alt="aperture laboratories logo" class="al-logo">
+	</a>
+		 
+    <!-- Menuer -->
+    <div class="navbar">
+        <p class="slogan">- we do what we must <br> because we can</p>
+		
+
+        <!-- PC-Menu -->
+        <div class="menu">
+			<div class="line"></div>
+            <a href="#">Home</a>
+            <a href="#">Portal</a>
+            <a href="#">Other projects</a>
+            <a href="#">About us</a>
+            <a href="#">Press</a>
+        </div>
+
+        <!-- Burger Menu -->
+        <div class="burger-menu" id="burger-menu" onclick="toggleMobileMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <!-- M-Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <a href="#">Home</a>
+        <a href="#">Portal</a>
+        <a href="#">Other projects</a>
+        <a href="#">About us</a>
+        <a href="#">Press</a>
+    </div>
+
+	<!-- Java script til burger menu -->
+    <script>
+        function toggleMobileMenu() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('active');
+        }
+    </script>
+	
+<section id="slideshow" class="section">
+		<img src="img/orange portal.png" alt="orange portal" class="portal">
+		<img src="img/slideshow banner.png" alt="slideshow banner" id="banner">
+		<img src="img/blue portal.png" alt="blue portal" class="portal">
+	</section>
+	
+	<section id="homepage-content">
+		<img src="img/grey tiles.png" alt="grey tiles" class="grey-tiles" id="greytile_1">
+		<br>
+		<div id="portal-ad">
+			<p id="portal-message">Are you <br> struggling financially? <br> <br> Would you like to make the <br> world a better place? <br> <br> Participate in our top secret research programme, and dedicate your time to <br> PORTAL.</p>
+			<br>
+			<a href="#"><div id="portal-ad-button">VOLUNTEER NOW</div></a>
+		</div>
+		<br>
+		<img src="img/grey tiles.png" alt="grey tiles" class="grey-tiles">
+	</section>
+	
+	
+	
 </body>
 </html>
+
