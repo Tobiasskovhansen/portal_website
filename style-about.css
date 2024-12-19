@@ -24,7 +24,6 @@ body {
 	color: black;
 }
 
-
 /* PC-Menu styling */
 .navbar {
     display: flex;
@@ -117,28 +116,24 @@ body {
 /* General styling for sectioner*/
 
 .section {
-	padding: 5%;
-	
+	padding: 5%;	
 }
 
-#slideshow {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
+a {
+	text-decoration: none;
 }
-
-.portal {
-	height: 200px;
-}
-
 
 #banner {
-	width: 75%;
-	height: 150px;
-}
+	height: 250px;
+	background-image: url("img/about banner.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	}
 
-#homepage-content {
+
+#content {
 	display: flex;
 	flex-direction: right;
 	justify-content: space-between;
@@ -148,44 +143,13 @@ body {
 	width: 25%;
 }
 
-#portal-ad {
+#description {
 	width: 30%;
-	padding-bottom: 20px;
-}
-
-#portal-message {
+	font-size: 30px;
 	text-align: center;
 	color: #7ED1F2;
-	font-weight: bold;
-	font-size: 25px;
-	}
-
-a {
-	text-decoration: none;
 }
 
-#portal-ad-button {
-	color: white;
-	font-weight: bold;
-	font-size: 30px;
-	background-color: orange;
-	border-radius: 50px;
-	height: 100px;
-	width: 300px;
-	text-align: center;
-	line-height: 65px;
-	padding: 16px 0;
-	display: block;
-  	margin-left: auto;
-  	margin-right: auto;
-	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
-	transition: background-color, box-shadow 0.3s ease;
-}
-
-#portal-ad-button:hover {
-	background-color: darkorange;
-	box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.3);
-}
 
 /* Mobilt format */
 @media (max-width: 768px) {
@@ -197,9 +161,11 @@ a {
 		background-color: white;
 	}
 	
-	#slideshow {
+	#banner {
 		padding-top: 220px;
+		margin-top: 200px;
 	}
+	
 	
 	/* Skjul PC-Menu */
 	.navbar .line {
@@ -232,11 +198,7 @@ a {
   		margin-left: auto;
   		margin-right: auto;
 	}
-	
-	#banner {
-		width: 50%;
-	}
-	
+		
 	.grey-tiles {
 		width: 100%;
 }
@@ -245,14 +207,16 @@ a {
 		display: none;
 	}
 	
-	#homepage-content {
+	#description {
+		width: 90%;
+		font-size: 25px;
+		margin-bottom: 50px;
+	}
+	
+	#content {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-	}
-	
-	#portal-ad {
-		width: 300px;
 	}
 }
 
