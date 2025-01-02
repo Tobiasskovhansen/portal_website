@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Lag_12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 255 255">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #8dd880;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+
+      .cls-1, .cls-5 {
+        fill: #9fed86;
+      }
+
+      .cls-8 {
+        fill: #fff;
+        font-family: LucidaSans-Typewriter, 'Lucida Sans Typewriter';
+        font-size: 20.13px;
+        font-style: italic;
+      }
+
+      .cls-2 {
+        stroke-dasharray: 11.2 11.2;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-6, .cls-7 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3, .cls-6, .cls-7 {
+        stroke: #9fed86;
+        stroke-linecap: round;
+      }
+
+      .cls-9 {
+        fill: url(#Ikke-navngivet_forløb_35);
+      }
+
+      .cls-3 {
+        stroke-dasharray: 11.72 11.72;
+      }
+
+      .cls-4 {
+        stroke: #000;
+      }
+
+      .cls-5 {
+        stroke: #d9d9d9;
+      }
+
+      .cls-10 {
+        fill: #69838e;
+      }
+
+      .cls-6 {
+        stroke-dasharray: 11.08 11.08;
+      }
+    </style>
+    <radialGradient id="Ikke-navngivet_forløb_35" data-name="Ikke-navngivet forløb 35" cx="130.91" cy="148.98" fx="130.91" fy="148.98" r="69.99" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000"/>
+      <stop offset=".4" stop-color="#010101"/>
+      <stop offset=".54" stop-color="#070806"/>
+      <stop offset=".65" stop-color="#11140f"/>
+      <stop offset=".73" stop-color="#20251c"/>
+      <stop offset=".8" stop-color="#323b2d"/>
+      <stop offset=".86" stop-color="#4a5641"/>
+      <stop offset=".92" stop-color="#657659"/>
+      <stop offset=".96" stop-color="#7e9370"/>
+      <stop offset="1" stop-color="#6b7d5f"/>
+    </radialGradient>
+  </defs>
+  <g>
+    <path class="cls-9" d="M130.91,218.97c-38.59,0-69.99-31.4-69.99-69.99s31.4-69.99,69.99-69.99,69.99,31.4,69.99,69.99-31.4,69.99-69.99,69.99Z"/>
+    <path class="cls-10" d="M130.91,85c35.28,0,63.99,28.71,63.99,63.99s-28.71,63.99-63.99,63.99-63.99-28.71-63.99-63.99,28.71-63.99,63.99-63.99M130.91,73c-41.97,0-75.99,34.02-75.99,75.99s34.02,75.99,75.99,75.99,75.99-34.02,75.99-75.99-34.02-75.99-75.99-75.99h0Z"/>
+  </g>
+  <polygon class="cls-10" points="89.16 201.67 175.08 201.67 127.06 220.51 89.16 201.67"/>
+  <g>
+    <line class="cls-7" x1="48.13" y1="80.3" x2="48.13" y2="86.3"/>
+    <line class="cls-2" x1="48.13" y1="97.5" x2="48.13" y2="226.28"/>
+    <polyline class="cls-7" points="48.13 231.88 48.13 237.88 54.13 237.88"/>
+    <line class="cls-3" x1="65.86" y1="237.88" x2="200.65" y2="237.88"/>
+    <polyline class="cls-7" points="206.51 237.88 212.51 237.88 212.51 231.88"/>
+    <line class="cls-6" x1="212.51" y1="220.81" x2="212.51" y2="93.42"/>
+    <line class="cls-7" x1="212.51" y1="87.88" x2="212.51" y2="81.88"/>
+  </g>
+  <circle class="cls-1" cx="48.25" cy="51.66" r="30.68"/>
+  <rect class="cls-5" x="196.44" y="49.05" width="32.83" height="32.83"/>
+  <line class="cls-4" x1="202.8" y1="55.65" x2="223.27" y2="76.11"/>
+  <line class="cls-4" x1="222.84" y1="55.22" x2="202.38" y2="75.69"/>
+  <text class="cls-8" transform="translate(96.53 145.51)"><tspan x="0" y="0">PLEASE</tspan><tspan x="0" y="24.15">ENTER.</tspan></text>
+</svg>
