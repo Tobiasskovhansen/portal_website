@@ -240,22 +240,24 @@ a {
   		margin-right: auto;
 	}
 	
-	.grey-tiles {
-		width: 100%;
-}
+	#content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
 	
 	#greytile_1 {
 		display: none;
+	}
+	
+	.grey-tiles {
+		width: 100%;
 	}
 	
 	#puzzle {
 		width: 100%;
 	}
 	
-	#content {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
+
 }
 
